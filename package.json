@@ -1,0 +1,7 @@
+{
+  "name": "@brillout/vite-client-library-test",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
