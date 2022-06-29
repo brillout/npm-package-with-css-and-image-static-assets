@@ -1,5 +1,5 @@
 {
-  "name": "@brillout/vite-client-library-test",
+  "name": "@brillout/component-with-static-assets",
   "version": "0.0.2",
   "main": "./index.jsx",
   "publishConfig": {

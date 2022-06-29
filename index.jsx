@@ -1,7 +1,17 @@
-import './index.css'
+import './some-static-style.css'
+import imgUrl from './some-static-image.svg'
 
-export { HelloComponent }
+export { ComponentWithStaticAssets }
 
-function HelloComponent() {
-  return <span className="colorized">Hello from lib</span>
+function ComponentWithStaticAssets() {
+  return React.createElement(
+    'span',
+    {
+      className: 'colorized'
+    },
+    React.createElement(Img, {
+      src: imgUrl
+    }),
+    ' Hello from lib'
+  )
 }
